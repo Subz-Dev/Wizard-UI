@@ -23,31 +23,31 @@ end)
 ### Textbox
 ```
 KillingCheats:CreateTextbox("TextBox", function(text)
-        print(text)
+-- Script Here
 end)
 ```
 ### Toggle
 ```
 KillingCheats:CreateToggle("Auto Ez", function(value)
-print(value)
+-- Script Here
 end)
 ```
 ### Dropdown
 ```
 KillingCheats:CreateDropdown("DropDown", {"Hello", "World", "Hello World"}, 2, function(text)
-print(text)
+-- Script Here
 end)
 ```
 ### Slider
 ```
 KillingCheats:CreateSlider("Slider", 0, 100, 15, false, function(value)
-print(value)
+-- Script Here
  end)
 ```
 ### Picker
 ```
 KillingCheats:CreateColorPicker("Picker", Color3.new(255, 255, 255), function(value)
-print(value)
+-- Script Here
 end)
 ```
 
